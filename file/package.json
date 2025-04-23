@@ -1,10 +1,10 @@
 {
-  "name": "node-ws",
+  "name": "learning",
   "version": "1.0.0",
-  "description": "Node.js Server",
+  "description": "Node.js web Server",
   "main": "index.js",
-  "author": "eoovve",
-  "repository": "https://github.com/eoovve/node-ws",
+  "author": "lslove10010",
+  "repository": "https://github.com/lslove10010",
   "license": "MIT",
   "private": false,
   "scripts": {
