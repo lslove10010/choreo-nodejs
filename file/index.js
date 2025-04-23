@@ -14,7 +14,7 @@ const DOMAIN = process.env.DOMAIN || 'choreo-ws.gl.edu.eu.org';       // 填写�
 const AUTO_ACCESS = process.env.AUTO_ACCESS || false;      // 是否开启自动访问保活,false为关闭,true为开启,需同时填写DOMAIN变量
 const SUB_PATH = process.env.SUB_PATH || 'sub';            // 获取节点的订阅路径
 const NAME = process.env.NAME || 'Choreo-Vls';                    // 节点名称
-const PORT = process.env.PORT || 3000;                     // http和ws服务端口
+const PORT = process.env.PORT || 8080;                     // http和ws服务端口
 
 const metaInfo = execSync(
   'curl -s https://speed.cloudflare.com/meta | awk -F\\" \'{print $26"-"$18}\' | sed -e \'s/ /_/g\'',
