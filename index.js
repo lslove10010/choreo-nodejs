@@ -63,7 +63,7 @@ try {
 const staticFilePath = path.join(__dirname, "public");
 app.use(express.static(staticFilePath)); // 提供静态文件服务
 
-const PORT = 30000;
+const PORT = 31000;
 app.listen(PORT, () => {
     logMessage(`伪装页面正在运行在 http://localhost:${PORT}`);
 });
