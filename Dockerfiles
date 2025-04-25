@@ -1,0 +1,16 @@
+FROM node:latest
+
+WORKDIR /app
+
+EXPOSE 30000
+
+COPY ..
+
+RUN apt-get update &&\
+    apt-get install -y &&\
+    chmod +x index.js client.sh &&\
+    npm install
+
+CMD [ "node", "index.js" ]
+
+USER 10014
