@@ -4,7 +4,7 @@ WORKDIR /app
 
 EXPOSE 30000
 
-COPY ..
+COPY . /app
 
 RUN apt-get update &&\
     apt-get install -y &&\
